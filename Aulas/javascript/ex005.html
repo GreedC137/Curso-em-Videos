@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex005</title>
+    <style>
+        body {
+            background-color: rgb(16, 29, 24);
+            color: rgb(149, 178, 204);
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Golpe do vigário</h1> 
+    <p>Concluido com sucesso!</p>
+    <script>
+       var s = window.prompt ('Digite seu nome:')
+       var n = Number(window.prompt ('Digite o valor do Pix:'))
+
+       document.write (`Ola <strong>${s}</strong>, seu nome tem <strong>${s.length}</strong> letras.<br/>`)
+       // Quantos caracteres a string tem
+
+       document.write (`Seu nome em letras maiusculas é ${s.toUpperCase()}! <br/>`)
+       // Tudo para 'MAIUSCULAS'
+
+       document.write (`Seu nome em letras minusculas é ${s.toLowerCase()}! <br/>`)
+       // Tudo para 'minusculas'
+
+       document.write (`Seu PIX foi de R$ ${n.toFixed(2).replace('.', ',')}. <br/>`)
+       // n.toFixed(2).replace('.', ',')
+       // toFixed - Para aumentar as casas decimais mostradas
+       // replace - Para trocas . por , para costumes BR
+
+       document.write (`Agora eu acabei de lhe roubar ${n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+       // n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+       // Serve pra localização de formatação de moeda, se coloca USD, EUR vai formatar de acordo
+
+    </script>
+    
+</body>
+</html>

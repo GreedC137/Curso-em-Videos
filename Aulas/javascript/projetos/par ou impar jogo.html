@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Par ou Ímpar</title>
+</head>
+<body>
+   <script>
+      const numeros = [0, 1, 2, 3, 4, 5];
+
+      const numero = Math.floor(Math.random() * numeros.length);
+
+      console.log(numeros[numero]); // resultado aleatório
+
+      window.alert('Par ou Ímpar?')
+
+      var p = window.prompt('Digite (1) para Ímpar ou (2) pra Par')
+
+      function resposta() {
+         if (p==1) {
+            window.alert('Você escolheu Ímpar')
+            let res = 1
+            return res
+         } if (p==2) {
+            window.alert('Você escolheu Par')
+            let res = 2
+            return res
+         } if (p%2==0) {
+            window.alert('Escolha estranha, mas vou considerar Par')
+            let res = 2
+            return res
+         } else {
+            window.alert('Escolha estranha, mas vou considerar Ímpar')
+            let res = 1
+            return res
+         }
+      }
+
+      window.alert('Certo...')
+
+      function pergunta() {
+         var a = window.prompt('Digite um numero de 0 a 5:')
+         if (a <= 5) {
+            return a
+         } else {
+            return pergunta()
+         }
+      }
+      
+      pergunta()
+
+      window.alert(a)
+
+      window.alert(`O computador escolheu ${numeros[numero]}`)
+
+      window.alert(`${a} + ${numeros[numero]} é igual a: `)
+   </script>
+</body>
+</html>
