@@ -6,13 +6,11 @@
 
 ### HyperText Markup Language & Cascading Style Sheets
 
-***
-
 ### JavaScript
 
----
-
 ### Python
+
+
 
 ---
 
