@@ -15,21 +15,20 @@
 </head>
 <body>
     <h1>Variaveis</h1> 
-    <p>Aparentemente são um cu!</p>
+    <p>Aparentemente são complicadinhas, principalmente quando tem varias</p>
     <script>
-       var nome = 'Alex Piltz Fritsche'
-       var idade = 18
-       var tamanho = 1.82
+       var nome = window.prompt('Qual seu nome?')
+       var idade = Number(window.prompt('Qual sua idade?'))
+       var tamanho = Number(window.prompt('Qual sua altura?'))
 
-       window.alert ('Meu nome é, nome')
+       //window.alert ('Meu nome é, nome')
        // Não faz interpolação
 
-       window.alert ('Meu nome é ' + nome)
+       //window.alert ('Seu nome é ' + nome)
        // Usa concatenação
 
        window.alert (`Meu nome é ${nome}, tenho ${idade} anos de idade e ${tamanho} de altura`)
        // Com `` ao invés de '' e usa template string
     </script>
-    
 </body>
 </html>
