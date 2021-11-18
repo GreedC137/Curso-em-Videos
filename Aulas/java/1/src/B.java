@@ -1,8 +1,7 @@
 
-public class Main {
+public class B {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		// Variaveis:
 		
@@ -33,6 +32,10 @@ public class Main {
 		String name = "Alex";
 		
 		System.out.println("My name is " + name);
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+		System.out.println(symbol);
 		
 	}
 

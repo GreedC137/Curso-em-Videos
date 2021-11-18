@@ -1,17 +1,16 @@
 
-public class Main {
+public class E {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// expression = operands & operators
 		// operands = values, variables, numbers, quantity
 		// operators = + - * / %
 		/*
-		 *  + = adição
-		 *  - = subtração
-		 *  * = multiplicação
-		 *  / = divisão
+		 *  + = adiï¿½ï¿½o
+		 *  - = subtraï¿½ï¿½o
+		 *  * = multiplicaï¿½ï¿½o
+		 *  / = divisï¿½o
 		 *  % = restante
 		 */
 		
@@ -21,7 +20,7 @@ public class Main {
 		
 		n--; // menos 1
 		
-		n = n / 3; // = 3.33 só como inteiro é apenas 3
+		n = n / 3; // = 3.33 sï¿½ como inteiro ï¿½ apenas 3
 		
 		n = (n * 3) + 1;
 		

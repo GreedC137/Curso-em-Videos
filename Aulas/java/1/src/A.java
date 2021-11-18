@@ -1,14 +1,13 @@
 
-public class Main {
+public class A {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		System.out.print("Hello, World!\n"); 		// -> \n = enter
 		System.out.println("My name is Alex\n"); 	// -> ln = enter
 		System.out.println("\tAnd I'll fuck you"); 	// -> \t = tab
 		System.out.println("\"Brincadeirinha\""); 	// -> \" = "
-		System.out.println("\\É sério");			// -> \\ = \
+		System.out.println("\\ï¿½ sï¿½rio");			// -> \\ = \
 		
 		// This is a comment
 		/*
